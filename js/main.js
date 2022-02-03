@@ -58,7 +58,8 @@ buttons.forEach((button) => {
 
 random.addEventListener("click", () => {
   const randomNum = Math.floor(Math.random() * reviews.length);
-  mainInfo(randomNum);
+  counter = randomNum;
+  mainInfo(counter);
 });
 
 function mainInfo(counter) {
